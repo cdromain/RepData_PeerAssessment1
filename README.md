@@ -8,9 +8,9 @@ output:
     keep_md: yes
 ---
 
-Welcome to my Reproducible Research PA Project 1 repo !
+Hi and welcome to my Reproducible Research P.A. Project 1 repo !
 
-Please find the full project report in the file [PA1.md](PA1.md).
+Please find the full project report in the markdown file [PA1.md](PA1.md).
 
 Cheers,
 
