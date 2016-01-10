@@ -161,7 +161,7 @@ for(i in 1:length(activity1$steps)) {
 }
 ```
 
-Remember that the original ```activity``` dataset did not contain any ```steps``` value for the 1st of October 2012 (among other days), as we can see below :
+Remember that the original ```activity1``` dataset did not contain any ```steps``` value for the 1st of October 2012 (among other days), as we can see below :
 
 ```{r, echo=TRUE}
 head(activity1, 10)

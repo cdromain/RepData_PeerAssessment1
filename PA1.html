@@ -125,7 +125,7 @@ fileUrl &lt;-<span class="st"> &quot;https://d396qusza40orc.cloudfront.net/repda
 ## save and print the download time and date
 downloadedDate &lt;-<span class="st"> </span><span class="kw">date</span>()
 <span class="kw">sprintf</span>(<span class="st">&quot;File downloaded and unzipped on : %s&quot;</span>, downloadedDate)</code></pre>
-<pre><code>## [1] &quot;File downloaded and unzipped on : Sun Jan 10 14:38:50 2016&quot;</code></pre>
+<pre><code>## [1] &quot;File downloaded and unzipped on : Sun Jan 10 14:46:35 2016&quot;</code></pre>
 </div>
 <div id="notes-on-the-original-raw-data" class="section level1">
 <h1><span class="header-section-number">3</span> Notes on the original raw data</h1>
@@ -270,7 +270,7 @@ for(i in <span class="dv">1</span>:<span class="kw">length</span>(activity1$step
                 activity2$steps[i] &lt;-<span class="st"> </span><span class="kw">ceiling</span>(activity1grp2$steps[activity1grp2$interval ==<span class="st"> </span>int])                
         }
 }</code></pre>
-<p>Remember that the original <code>activity</code> dataset did not contain any <code>steps</code> value for the 1st of October 2012 (among other days), as we can see below :</p>
+<p>Remember that the original <code>activity1</code> dataset did not contain any <code>steps</code> value for the 1st of October 2012 (among other days), as we can see below :</p>
 <pre class="sourceCode r"><code class="sourceCode r"><span class="kw">head</span>(activity1, <span class="dv">10</span>)</code></pre>
 <pre><code>##    steps       date interval
 ## 1     NA 2012-10-01        0

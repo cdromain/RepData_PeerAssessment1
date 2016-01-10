@@ -41,7 +41,7 @@ sprintf("File downloaded and unzipped on : %s", downloadedDate)
 ```
 
 ```
-## [1] "File downloaded and unzipped on : Sun Jan 10 14:38:50 2016"
+## [1] "File downloaded and unzipped on : Sun Jan 10 14:46:35 2016"
 ```
 
 # Notes on the original raw data 
@@ -289,7 +289,7 @@ for(i in 1:length(activity1$steps)) {
 }
 ```
 
-Remember that the original ```activity``` dataset did not contain any ```steps``` value for the 1st of October 2012 (among other days), as we can see below :
+Remember that the original ```activity1``` dataset did not contain any ```steps``` value for the 1st of October 2012 (among other days), as we can see below :
 
 
 ```r
